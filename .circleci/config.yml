@@ -45,7 +45,7 @@ jobs:
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-{{ checksum "/VuejsAppTest/package.json" }}
+          key: v1-dependencies-{{ checksum "./VuejsAppTest/package.json" }}
 
       # run tests!
       - run: yarn test
