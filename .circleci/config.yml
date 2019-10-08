@@ -38,6 +38,9 @@ jobs:
           name: Check current version of node
           command: node -v
 
+      - run:
+          name: "更换工作目录"
+          command:cd VuejsAppTest
 
       - save_cache:
           paths:
