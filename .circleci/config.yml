@@ -40,7 +40,7 @@ jobs:
 
       - run:
           name: "更换工作目录"
-          command: cd VuejsAppTest
+          command: ls
 
       - save_cache:
           paths:
